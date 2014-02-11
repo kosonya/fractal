@@ -1,0 +1,21 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: bin - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Debug/bin.res" /d "_DEBUG" "C:\Program Files\Microsoft Visual Studio\MyProjects\bin\bin.rc"" 
+Creating command line "link.exe version.lib kernel32.lib /nologo /subsystem:windows /incremental:no /pdb:"Debug/bin.pdb" /debug /machine:I386 /out:"Debug/bin.exe" /pdbtype:sept  ".\Debug\bin.obj" ".\Debug\binGlobals.obj" ".\Debug\bin.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+
+
+
+<h3>Results</h3>
+bin.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

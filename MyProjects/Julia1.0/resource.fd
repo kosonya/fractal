@@ -1,0 +1,13 @@
+!MS$FREEFORM
+! Microsoft Developer Studio generated include file.
+! Used by Julia.rc
+!
+      integer, parameter :: IDD_JULIA_DIALOG                = 101
+      integer, parameter :: IDC_EDIT1                       = 1006
+      integer, parameter :: IDC_EDIT2                       = 1007
+      integer, parameter :: IDC_EDIT3                       = 1008
+      integer, parameter :: IDC_EDIT4                       = 1009
+      integer, parameter :: IDC_EDIT5                       = 1010
+      integer, parameter :: IDC_EDIT6                       = 1011
+      integer, parameter :: IDM_EXIT                        = 30001
+      integer, parameter :: IDM_APPLY                       = 30002

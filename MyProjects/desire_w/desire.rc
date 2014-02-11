@@ -1,0 +1,394 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+// Generated Help ID header file
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.hm"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+#include "winver.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DESIRE_DIALOG DIALOGEX 40, 40, 455, 182
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Желание"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Загадать",IDM_APPLY,402,7,50,14
+    PUSHBUTTON      "Выход",IDM_EXIT,402,155,50,14
+    EDITTEXT        IDC_EDIT1,27,24,19,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,27,39,19,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,27,53,19,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,27,68,20,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5,27,82,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT6,27,96,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT7,27,111,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT8,27,125,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT9,27,140,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT10,27,154,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT11,65,24,19,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT12,65,39,19,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT13,65,53,19,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT14,65,68,20,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT15,65,82,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT16,65,96,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT17,65,111,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT18,65,125,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT19,65,140,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT20,65,154,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT21,103,24,19,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT22,103,39,19,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT23,103,53,19,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT24,103,68,20,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT25,103,82,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT26,103,96,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT27,103,111,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT28,103,125,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT29,103,140,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT30,103,154,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT31,141,24,19,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT32,141,39,19,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT33,141,53,19,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT34,141,68,20,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT35,141,82,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT36,141,96,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT37,141,111,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT38,141,125,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT39,141,140,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT40,141,154,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT41,176,25,19,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT42,176,40,19,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT43,176,54,19,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT44,176,70,20,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT45,176,83,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT46,176,97,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT47,176,112,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT48,176,126,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT49,176,142,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT50,176,155,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT51,213,26,19,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT52,213,41,19,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT53,213,55,19,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT54,213,70,20,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT55,213,84,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT56,213,98,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT57,213,113,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT58,213,127,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT59,213,142,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT60,213,156,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT61,249,25,19,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT62,249,39,19,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT63,249,54,19,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT64,249,68,20,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT65,249,82,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT66,249,97,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT67,249,111,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT68,249,126,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT69,249,140,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT70,249,155,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT71,283,25,19,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT72,283,39,19,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT73,283,54,19,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT74,283,68,20,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT75,283,82,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT76,283,97,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT77,283,111,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT78,283,126,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT79,283,140,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT80,283,155,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT81,323,24,19,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT82,323,39,19,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT83,323,53,19,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT84,323,68,20,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT85,323,82,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT86,323,96,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT87,323,111,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT88,323,125,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT89,323,140,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT90,323,154,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT91,360,23,19,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT92,360,38,19,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT93,360,52,19,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT94,360,66,20,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT95,360,81,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT96,360,95,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT97,360,110,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT98,360,124,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT99,360,138,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT100,360,153,21,14,ES_AUTOHSCROLL
+    LTEXT           "1",IDC_STATIC,14,26,8,8
+    LTEXT           "2",IDC_STATIC,13,41,8,8
+    LTEXT           "3",IDC_STATIC,13,56,8,8
+    LTEXT           "4",IDC_STATIC,13,71,8,8
+    LTEXT           "5",IDC_STATIC,13,85,8,8
+    LTEXT           "6",IDC_STATIC,15,98,8,8
+    LTEXT           "7",IDC_STATIC,13,114,8,8
+    LTEXT           "8",IDC_STATIC,13,129,8,8
+    LTEXT           "9",IDC_STATIC,12,144,8,8
+    LTEXT           "10",IDC_STATIC,11,157,9,8
+    LTEXT           "11",IDC_STATIC,51,26,9,8
+    LTEXT           "12",IDC_STATIC,52,42,9,8
+    LTEXT           "13",IDC_STATIC,53,57,9,8
+    LTEXT           "14",IDC_STATIC,53,71,9,8
+    LTEXT           "15",IDC_STATIC,53,85,9,8
+    LTEXT           "16",IDC_STATIC,53,100,9,8
+    LTEXT           "17",IDC_STATIC,53,114,9,8
+    LTEXT           "18",IDC_STATIC,53,128,9,8
+    LTEXT           "19",IDC_STATIC,53,145,9,8
+    LTEXT           "20",IDC_STATIC,53,158,9,8
+    LTEXT           "30",IDC_STATIC,90,157,9,8
+    LTEXT           "40",IDC_STATIC,128,158,9,8
+    LTEXT           "50",IDC_STATIC,164,158,9,8
+    LTEXT           "60",IDC_STATIC,202,159,9,8
+    LTEXT           "70",IDC_STATIC,237,158,11,8
+    LTEXT           "80",IDC_STATIC,272,158,9,8
+    LTEXT           "90",IDC_STATIC,309,159,9,8
+    LTEXT           "100",IDC_STATIC,346,157,13,8
+    LTEXT           "21",IDC_STATIC,89,26,9,8
+    LTEXT           "31",IDC_STATIC,126,26,9,8
+    LTEXT           "41",IDC_STATIC,164,28,9,8
+    LTEXT           "51",IDC_STATIC,200,29,9,8
+    LTEXT           "61",IDC_STATIC,235,28,9,8
+    LTEXT           "71",IDC_STATIC,271,26,9,8
+    LTEXT           "81",IDC_STATIC,311,26,9,8
+    LTEXT           "91",IDC_STATIC,347,26,9,8
+    LTEXT           "22",IDC_STATIC,89,40,9,8
+    LTEXT           "32",IDC_STATIC,128,42,9,8
+    LTEXT           "42",IDC_STATIC,164,41,9,8
+    LTEXT           "52",IDC_STATIC,199,44,12,8
+    LTEXT           "62",IDC_STATIC,235,42,11,8
+    LTEXT           "72",IDC_STATIC,271,42,11,8
+    LTEXT           "82",IDC_STATIC,311,42,9,8
+    LTEXT           "92",IDC_STATIC,347,42,9,8
+    LTEXT           "23",IDC_STATIC,90,56,9,8
+    LTEXT           "24",IDC_STATIC,90,69,9,8
+    LTEXT           "25",IDC_STATIC,90,85,9,8
+    LTEXT           "26",IDC_STATIC,91,101,9,8
+    LTEXT           "27",IDC_STATIC,91,114,9,8
+    LTEXT           "28",IDC_STATIC,91,129,9,8
+    LTEXT           "29",IDC_STATIC,91,143,9,8
+    LTEXT           "33",IDC_STATIC,129,55,9,8
+    LTEXT           "34",IDC_STATIC,127,69,9,8
+    LTEXT           "35",IDC_STATIC,128,85,9,8
+    LTEXT           "36",IDC_STATIC,129,101,9,8
+    LTEXT           "37",IDC_STATIC,129,114,9,8
+    LTEXT           "38",IDC_STATIC,128,128,9,8
+    LTEXT           "39",IDC_STATIC,127,144,9,8
+    LTEXT           "43",IDC_STATIC,164,57,9,8
+    LTEXT           "44",IDC_STATIC,164,73,9,8
+    LTEXT           "45",IDC_STATIC,164,86,9,8
+    LTEXT           "46",IDC_STATIC,164,99,9,8
+    LTEXT           "47",IDC_STATIC,164,115,9,8
+    LTEXT           "48",IDC_STATIC,162,129,9,8
+    LTEXT           "49",IDC_STATIC,164,145,9,8
+    LTEXT           "53",IDC_STATIC,200,58,9,8
+    LTEXT           "54",IDC_STATIC,201,74,9,8
+    LTEXT           "55",IDC_STATIC,201,88,9,8
+    LTEXT           "56",IDC_STATIC,201,102,9,8
+    LTEXT           "57",IDC_STATIC,201,114,9,8
+    LTEXT           "58",IDC_STATIC,201,130,9,8
+    LTEXT           "59",IDC_STATIC,200,146,12,8
+    LTEXT           "63",IDC_STATIC,235,56,9,8
+    LTEXT           "64",IDC_STATIC,237,74,9,8
+    LTEXT           "65",IDC_STATIC,237,86,10,8
+    LTEXT           "66",IDC_STATIC,237,100,9,8
+    LTEXT           "67",IDC_STATIC,237,114,11,8
+    LTEXT           "68",IDC_STATIC,238,130,9,8
+    LTEXT           "69",IDC_STATIC,237,144,9,8
+    LTEXT           "73",IDC_STATIC,271,57,9,8
+    LTEXT           "74",IDC_STATIC,272,71,9,8
+    LTEXT           "75",IDC_STATIC,273,85,9,8
+    LTEXT           "76",IDC_STATIC,273,101,9,8
+    LTEXT           "77",IDC_STATIC,273,114,9,8
+    LTEXT           "78",IDC_STATIC,273,129,9,8
+    LTEXT           "79",IDC_STATIC,272,144,11,8
+    LTEXT           "83",IDC_STATIC,312,58,9,8
+    LTEXT           "84",IDC_STATIC,313,72,9,8
+    LTEXT           "85",IDC_STATIC,313,86,9,8
+    LTEXT           "86",IDC_STATIC,313,98,9,8
+    LTEXT           "87",IDC_STATIC,311,114,9,8
+    LTEXT           "88",IDC_STATIC,312,128,9,8
+    LTEXT           "89",IDC_STATIC,309,145,9,8
+    LTEXT           "93",IDC_STATIC,347,56,9,8
+    LTEXT           "94",IDC_STATIC,348,70,9,8
+    LTEXT           "95",IDC_STATIC,348,85,9,8
+    LTEXT           "96",IDC_STATIC,348,98,9,8
+    LTEXT           "97",IDC_STATIC,348,114,9,8
+    LTEXT           "98",IDC_STATIC,347,128,9,8
+    LTEXT           "99",IDC_STATIC,349,143,9,8
+    PUSHBUTTON      "Подсказка",IDC_BUTTON1,17,5,50,14,0,0,HIDC_BUTTON1
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DESIRE_DIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 452
+        BOTTOMMARGIN, 176
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Neutral resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+DESIRE                  ICON    DISCARDABLE     "desire.ico"
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,0,0,2
+ PRODUCTVERSION 2,0,2,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041904e4"
+        BEGIN
+            VALUE "Comments", "Исполнит любое желание, но только 20 февраля\0"
+            VALUE "CompanyName", "Максим Ковалев\0"
+            VALUE "FileDescription", "desire\0"
+            VALUE "FileVersion", "20.02\0"
+            VALUE "InternalName", "desire\0"
+            VALUE "LegalCopyright", "\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Желание\0"
+            VALUE "ProductVersion", "20.02\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x419, 1252
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    0                       " "
+END
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "#include ""winver.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

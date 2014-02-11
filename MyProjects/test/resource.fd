@@ -1,0 +1,13 @@
+!MS$FREEFORM
+! Microsoft Developer Studio generated include file.
+! Used by test.rc
+!
+      integer, parameter :: IDD_TEST_DIALOG                 = 101
+      integer, parameter :: IDC_EDIT1                       = 1006
+      integer, parameter :: IDC_EDIT2                       = 1008
+      integer, parameter :: IDC_EDIT3                       = 1009
+      integer, parameter :: IDC_EDIT4                       = 1010
+      integer, parameter :: IDC_EDIT6                       = 1012
+      integer, parameter :: IDC_EDIT7                       = 1013
+      integer, parameter :: IDM_EXIT                        = 30001
+      integer, parameter :: IDM_APPLY                       = 30002

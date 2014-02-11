@@ -1,0 +1,2 @@
+cyrillic.com
+prologus.exe

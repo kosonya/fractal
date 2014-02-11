@@ -1,0 +1,8 @@
+!MS$FREEFORM
+! Microsoft Developer Studio generated include file.
+! Used by ev.rc
+!
+      integer, parameter :: IDD_EV_DIALOG                   = 101
+      integer, parameter :: IDC_EDIT1                       = 1006
+      integer, parameter :: IDM_EXIT                        = 30001
+      integer, parameter :: IDM_APPLY                       = 30002

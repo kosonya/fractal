@@ -1,0 +1,4 @@
+// Microsoft Developer Studio generated Help ID include file.
+// Used by desire.rc
+//
+#define HIDC_BUTTON1                    0x806503f9    // IDD_DESIRE_DIALOG [Neutral]
