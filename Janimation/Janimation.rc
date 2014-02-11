@@ -1,0 +1,199 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+#include "winver.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_JANIMATION_DIALOG DIALOGEX 40, 40, 259, 186
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Параметры"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Начать",IDM_APPLY,203,3,50,14
+    PUSHBUTTON      "Выход",IDM_EXIT,197,164,50,14
+    GROUPBOX        "Аттрактор",IDC_STATIC,5,4,78,49
+    LTEXT           "ReC",IDC_STATIC,11,18,15,8
+    LTEXT           "ImC",IDC_STATIC,12,35,13,8
+    EDITTEXT        IDC_EDIT1,29,14,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,29,32,40,14,ES_AUTOHSCROLL
+    GROUPBOX        "Границы",IDC_STATIC,5,60,77,122
+    GROUPBOX        "X",IDC_STATIC,10,73,67,49
+    LTEXT           "min",IDC_STATIC,13,86,12,8
+    EDITTEXT        IDC_EDIT3,29,84,40,14,ES_AUTOHSCROLL
+    LTEXT           "max",IDC_STATIC,12,106,14,8
+    EDITTEXT        IDC_EDIT4,29,103,40,14,ES_AUTOHSCROLL
+    GROUPBOX        "Y",IDC_STATIC,10,132,66,44
+    LTEXT           "min",IDC_STATIC,14,144,12,8
+    EDITTEXT        IDC_EDIT5,29,140,40,14,ES_AUTOHSCROLL
+    LTEXT           "max",IDC_STATIC,13,159,14,8
+    EDITTEXT        IDC_EDIT6,29,158,40,14,ES_AUTOHSCROLL
+    GROUPBOX        "|Z max|",IDC_STATIC,93,8,70,72
+    LTEXT           "min",IDC_STATIC,99,20,12,8
+    EDITTEXT        IDC_EDIT7,115,18,40,14,ES_AUTOHSCROLL
+    LTEXT           "max",IDC_STATIC,97,39,14,8
+    EDITTEXT        IDC_EDIT8,115,36,40,14,ES_AUTOHSCROLL
+    LTEXT           "шаг",IDC_STATIC,98,62,14,8
+    EDITTEXT        IDC_EDIT9,116,58,40,14,ES_AUTOHSCROLL
+    GROUPBOX        "Цвета",IDC_STATIC,93,91,69,38
+    EDITTEXT        IDC_EDIT10,97,110,40,14,ES_AUTOHSCROLL
+    LTEXT           "3",IDC_STATIC,140,102,8,8
+    EDITTEXT        IDC_EDIT11,92,145,40,14,ES_AUTOHSCROLL
+    LTEXT           "точек на боковую сторону",IDC_STATIC,137,149,89,8
+END
+
+#endif    // Neutral resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+JANIMATION              ICON    DISCARDABLE     "Janimation.ico"
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041904e4"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "Сам делал!\0"
+            VALUE "FileDescription", "Janimation Application\0"
+            VALUE "FileVersion", "1.0\0"
+            VALUE "InternalName", "Janimation\0"
+            VALUE "LegalCopyright", "\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Анимация Жюлиа\0"
+            VALUE "ProductVersion", "1.0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x419, 1252
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    0                       " "
+END
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "#include ""winver.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

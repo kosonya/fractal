@@ -1,0 +1,4 @@
+// Microsoft Developer Studio generated Help ID include file.
+// Used by Julia.rc
+//
+#define HIDC_BUTTON2                    0x806503f9    // IDD_JULIA_DIALOG [Neutral]

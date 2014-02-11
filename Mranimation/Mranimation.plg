@@ -1,0 +1,26 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Mranimation - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Maxikov\LOCALS~1\Temp\RSPC9D5.tmp" with contents
+[
+version.lib kernel32.lib /nologo /subsystem:windows /incremental:no /pdb:"Debug/Mranimation.pdb" /debug /machine:I386 /out:"Debug/Mranimation.exe" /pdbtype:sept 
+".\Debug\Mranimation.obj"
+".\Debug\MranimationGlobals.obj"
+".\Debug\Mranimation.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\Maxikov\LOCALS~1\Temp\RSPC9D5.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+Mranimation.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
